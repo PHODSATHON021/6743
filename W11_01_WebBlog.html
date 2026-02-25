@@ -118,7 +118,7 @@
             <article>
               <header class="post-header">
                 <h3>คำสั่ง CSS สำคัญสำหรับการเขียนเว็บ Responsive</h3>
-                <div class="dete-circle">
+                <div class="date-circle">
                   <span class="day">30</span>
                   <span>AUG</span>
                 </div>
@@ -157,7 +157,7 @@
             <article>
               <header class="post-header">
                 <h3>เปรียบเทียบ display: block vs inline-block</h3>
-                <div class="dete-circle">
+                <div class="date-circle">
                   <span class="day">28</span>
                   <span>AUG</span>
                 </div>
@@ -227,9 +227,86 @@
 
               <!-- card 03 -->
               <div class="card">
-                📞 ติดต่อเรา ชื่อ นามสกุล อีเมล เบอร์โทรศัพท์ บริษัท/องค์กร
-                หัวข้อที่สนใจ รายละเอียด ความสนใจเพิ่มเติม ต้องการรับข่าวสารทาง
-                email สนใจบริการปรึกษา สนใจความร่วมมือ 📨 ส่งข้อความ
+                <h2 class="contect-title">📞 ติดต่อเรา</h2>
+                <div class="contact-form-main-card">
+                  <form action="" method="">
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="fname" class="form-label">ชื่อ</label>
+                        <input type="text" id="fname" name="fname" placeholder="ป้อนชื่อ" class="form-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="lname" class="form-label">นามสกุล</label>
+                        <input type="text" id="lname" name="label" placeholder="ป้อนนามสกุล" class="form-input">
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="form-group">
+                        <label for="email" class="form-label">อีเมล</label>
+                        <input type="email" id="email" name="email" placeholder="ป้อนอีเมล" class="form-input">
+                      </div>
+                      <div class="form-group">
+                        <label for="phone" class="form-label">เบอร์โทรศัพท์</label>
+                        <input type="text" id="phone" name="phone" placeholder="ป้อนเบอร์โทรศัพท์" class="form-input">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="company" class="form-label">บริษัท/องค์กร</label>
+                      <input type="text" id="company" name="company" placeholder="ป้อนชื่อบริษัท/องค์กร"
+                        class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="subject" class="form-label">หัวข้อที่สนใจ</label>
+                      <select name="subject" id="subject" class="form-select">
+                        <option value="AI">AI</option>
+                        <option value="IOT">IOT</option>
+                        <option value="Machine Learning">Machine Learning</option>
+                        <option value="Blockchin">Blockchin</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="detail" class="form-label">รายละเอียด</label>
+                      <textarea name="detail" id="detail" placeholder="เขียนข้อความของคุณที่นี่..."
+                        class="form-textarea"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="interests" class="form-label">ความสนใจเพิ่มเติม</label>
+                      <div class="form-checkbox-group">
+
+                        <div class="checkbox-item">
+                          <input type="checkbox" id="interests1" name="interests[]" value="newsletter">
+                          <span>ต้องการรับข่าวสารทาง email</span>
+                        </div>
+
+                        <div class="checkbox-item">
+                          <input type="checkbox" id="interests2" name="interests[]" value="counsult">
+                          <span> สนใจบริการปรึกษา</span>
+                        </div>
+
+                        <div class="checkbox-item">
+                          <input type="checkbox" id="interests3" name="interests[]" value="partnership"><span>
+                            สนใจความร่วมมือ</span>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div>
+                      <button type="submit" class="form-button">📨 ส่งข้อความ</button>
+                      <button type="reset" class="form-button module1">ล้างข้อมูล</button>
+                    </div>
+
+
+
+                    <!-- <input type="submit" value="📨 ส่งข้อความ"></input> -->
+
+
+                  </form>
+                </div>
               </div>
         </main>
 
@@ -237,26 +314,77 @@
         <aside>
           <!-- Widget 01 -->
           <div class="widget">
-            < สวัสดีครับ ยินดีต้อนรับ ผมชื่อ Suksawat เขียนบล็อกเกี่ยวกับ Startup การตลาด การเขียนโปรแกรม และเทคโนโลยี
-              AI สำหรับ SME และ Startup รูปผู้เขียน กดติดตามใน Facebook </div>
-
-              <!-- Widget 02 -->
-              <div class="widget">
-                📧 รับข่าวสารใหม่ ชื่อของคุณ อีเมล สนใจเนื้อหาด้านไหน 🚀 สมัครเลย!
+            <div>
+              <h2>สวัสดีครับ ยินดีต้อนรับ</h2>
+              <p class="post-description">
+                ผมชื่อ Suksawat เขียนบล็อกเกี่ยวกับ Startup การตลาด การเขียนโปรแกรม
+                และเทคโนโลยี
+                AI สำหรับ SME และ Startup
+              </p>
+              <div class="right-img">
+                <img src="images/mm.jpeg" alt="">รูปผู้เขียน</img>
               </div>
-
-              <!-- Widget 03 -->
-              <div class="widget">
-                💬 ติดต่อด่วน ชื่อ เรื่องที่ต้องการติดต่อ ข้อความสั้นๆ 📤 ส่งเลย
+              <div class="btn-fb">
+                <a href="#" c> กดติดตามใน Facebook </a>
               </div>
+            </div>
+          </div>
 
-              <!-- Widget 04 -->
-              <div class="widget">
-                กล่อง Facebook Like (ตัวอย่าง) 203,779 คนถูกใจ
+            <!-- Widget 02 -->
+            <div class="widget">
+              <div class="content-form-card-widget">
+                <form action="">
+                  <h2 class="title-form-widget">รับข่าวสารใหม่</h2>
+                  <label for="name" class="form-label-widget">ชื่อของคุณ</label>
+                  <input type="text" id="name" name="name" placeholder="ใส่ชื่อของคุณ" class="form-input">
+                  <label for="email" class="form-label-widget">อีเมล</label>
+                  <input type="email" id="email" name="email" placeholder="ใส่อีเมลของคุณ" class="form-input">
+                  <label for="subject" class="form-label-widget">สนใจเนื้อหาด้านไหน</label>
+                  <select name="subject" id="subject" class="form-select">
+                    <option value="AI">ทุกหัวข้อ</option>
+                    <option value="IOT">IOT</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Blockchin">Blockchin</option>
+                  </select>
+                  <div>
+                    <button type="submit" class="form-btn-widget">🚀 สมัครเลย!</button>
+                  </div>
+                </form>
               </div>
+            </div>
 
-              <!-- Widget 05 -->
-              <div class="widget">Sponsor พื้นที่โฆษณา / วิดีโอ</div>
+            <!-- Widget 03 -->
+            <div class="widget">
+              <div class="content-form-card-widget module-1">
+                <form action="">
+                  <h2 class="title-form-widget">💬 ติดต่อด่วน</h2>
+                  <label for="name" class="form-label-widget">ชื่อ</label>
+                  <input type="text" id="name" name="name" placeholder="ชื่อของคุณ" class="form-input">                 
+                  <label for="subject" class="form-label-widget">เรื่องที่ต้องการติดต่อ</label>
+                  <select name="subject" id="subject" class="form-select">
+                    <option value="AI">เลือกเรื่องที่ติดต่อ</option>
+                    <option value="IOT">IOT</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Blockchin">Blockchin</option>
+                  </select>
+                  <label for="detail" class="form-label-widget">ข้อความสั้นๆ </label>
+                      <textarea name="detail" id="detail" placeholder="อธิบายสั้นๆ..."
+                        class="form-textarea"></textarea>
+                  <div>
+                    <button type="submit" class="form-btn-widget module-1">📤 ส่งเลย</button>
+                  </div>
+                </form>
+              </div>
+                 
+            </div>
+
+            <!-- Widget 04 -->
+            <div class="widget">
+              กล่อง Facebook Like (ตัวอย่าง) 203,779 คนถูกใจ
+            </div>
+
+            <!-- Widget 05 -->
+            <div class="widget">Sponsor พื้นที่โฆษณา / วิดีโอ</div>
         </aside>
       </div>
     </div>
