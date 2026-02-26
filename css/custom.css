@@ -498,7 +498,7 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 /* Focus: ฟอร์มรอง */
 .content-form-card-widget .form-select:focus,
 .content-form-card-widget .form-input:focus,
- .content-form-card-widget .form-textarea:focus {
+.content-form-card-widget .form-textarea:focus {
     outline: none;
     background: #fff;
     border-color: #3154f0;
