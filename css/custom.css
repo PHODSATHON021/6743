@@ -348,7 +348,8 @@ border: 1px solid rgb(188, 188, 188);
 
 .checkbox-item input[type="checkbox"] {
   accent-color: red;
-  fransform: scale(1.15);
+  transform: scale(1.15);
+
 }
 
 .form-textarea {
