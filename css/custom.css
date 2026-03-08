@@ -234,8 +234,9 @@ a:hover {
 }
 /* css fo card2 table*/
 .comparison-table {
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: 0 2px 8px;
+  margin: 10px 0;
 }
 .comparison-table th {
   background: linear-gradient(45deg, blue 0%, rgb(132, 0, 255) 100%);
@@ -399,9 +400,71 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 
 
 /*===============================================*/
-/*Right side*/
+/*--- Right side ---*/
 /*===============================================*/
-.widget {
+
+
+/*===============================================*/
+/*--- แนะนำตัว ---*/
+/*===============================================*/
+
+.widget-title {
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-size: 1rem;
+ 
+}
+
+.auther-photo {
+  background-color: rgb(207, 207, 207);
+  height: 140px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 8px 0;
+  border-radius: 4px;
+
+}
+
+.btn-facebook {
+  background-color: #22389a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+
+  display: inline-block;
+  color: #fff;
+  font-size: 0.82rem;
+}
+
+
+.facebook-like {
+  background-color: rgb(223, 223, 223);
+  padding: 8px 0px;
+  border-radius: 4px;
+  text-align: center;
+
+  margin: 8px 0;
+}
+
+.ad-box {
+  background-color: rgb(207, 207, 207);
+  height: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+
+ /* Widget  */
+
+ .widget {
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
   padding: 15px;
@@ -410,38 +473,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 .widget + .widget {
   margin-top: 15px;
 }
-
-.btn-fb {
-  background-color: #22389a;
-  display: inline-block;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.btn-fb a {
-  color: #fff;
-  font-size: 0.82rem;
-
-}
-
-
-
-  /* img */
-.right-img {
-  height: 200px;
-  overflow: hidden;
-  margin: 10px 0;
-  border-radius: 5px;
-}
-
-.right-img img{
-  width: 100%;
-  height: auto;
-  object-fit: cover
-}
-  /* img */
-
- /* Widget  */
 
 
 .content-form-card-widget {
@@ -505,6 +536,72 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
     border-color: #3154f0;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.18);
     transform: translateY(-1px);
+}
+
+
+/* ตารางทองคำ */
+
+:root {
+  --line: rgb(222, 133, 0);
+  --bg01: rgb(250, 209, 131);
+  --bg02: rgb(254, 232, 189);
+  --bg03: rgb(235, 255, 221);
+}
+
+.wrap-gold-table {
+  background-color: var(--bg02);
+  margin: 15px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid var(--line);
+}
+
+.gold-table thead th {
+  background-color: var(--bg01);
+}
+
+
+.gold-table tbody th {
+  background-color: var(--bg01);
+}
+
+.gold-table {
+  border: 1px solid var(--line);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.gold-table th ,
+.gold-table td {
+   border: 1px solid var(--line);
+   text-align: center;
+   padding: 13px;
+   
+}
+
+td.num-right {
+   text-align: end;
+}
+
+.gold-table .total th ,
+.gold-table .total td {
+  background-color: var(--bg03)
+}
+
+/* ตารางทองคำ */
+
+/* footer */
+
+.footer {
+  background-color: #000;
+  padding: 20px 0;
+  margin-top: 30px;
+  color: #e3e3e3;
+  text-align: center;
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 
