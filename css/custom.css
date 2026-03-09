@@ -80,6 +80,9 @@ a:hover {
 .nav-menu li a.active {
   background-color: rgb(0, 94, 216);
 }
+
+/* HERO PAGE */
+
 .hero-title {
   font-size: 2rem;
   font-weight: 700;
@@ -281,17 +284,15 @@ a:hover {
   color: #01299a;
   font-weight: 700;
   text-shadow: 0 2px 4px rgb(174, 171, 171);
-
 }
 .contact-form-main-card {
-background-color: #e8e8e8;
-padding: 40px;
-border-radius: 15px;
-margin: 0 auto;
-box-shadow: 0  10px 15px rgba(128, 128, 128, 0.934);
-border: 1px solid rgb(188, 188, 188);
+  background-color: #e8e8e8;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 0 auto;
+  box-shadow: 0 10px 15px rgba(128, 128, 128, 0.934);
+  border: 1px solid rgb(188, 188, 188);
 }
-
 
 .form-label {
   font-size: 0.82rem;
@@ -310,12 +311,11 @@ border: 1px solid rgb(188, 188, 188);
   background-color: #ffffff;
   border: 2px solid rgb(173, 173, 173);
   color: #333;
-
 }
 
-.form-input ,
+.form-input,
 .form-select,
-.form-textarea{
+.form-textarea {
   width: 100%;
   padding: 12px 15px;
   border-radius: 8px;
@@ -350,7 +350,6 @@ border: 1px solid rgb(188, 188, 188);
 .checkbox-item input[type="checkbox"] {
   accent-color: red;
   transform: scale(1.15);
-
 }
 
 .form-textarea {
@@ -358,19 +357,18 @@ border: 1px solid rgb(188, 188, 188);
   min-height: 100px;
 }
 
-
 /* Focus: ฟอร์มหลัก */
 .contact-form-main-card .form-select:focus,
 .contact-form-main-card .form-input:focus,
 .contact-form-main-card .form-textarea:focus {
-    outline: none;
-    background: #fff;
-    border-color: #3154f0;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.18);
-    transform: translateY(-1px);
+  outline: none;
+  background: #fff;
+  border-color: #3154f0;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.18);
+  transform: translateY(-1px);
 }
 
-.contact-form-main-card .form-button{
+.contact-form-main-card .form-button {
   width: 100%;
   border: none;
   padding: 12px 30px;
@@ -384,25 +382,24 @@ border: 1px solid rgb(188, 188, 188);
 }
 
 .contact-form-main-card .form-button.module1 {
-  background: linear-gradient(45deg, rgb(24, 61, 249) 0%, rgb(24, 213, 255) 100%);
+  background: linear-gradient(
+    45deg,
+    rgb(24, 61, 249) 0%,
+    rgb(24, 213, 255) 100%
+  );
 }
-
 
 /* hover ของ ปุ่มกด submit */
 
 .contact-form-main-card .form-button:hover {
-background: linear-gradient(45deg, #5a67d8, #6b46c1);
-transform: translateY(-2px);
-box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
+  background: linear-gradient(45deg, #5a67d8, #6b46c1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 }
-
-
-
 
 /*===============================================*/
 /*--- Right side ---*/
 /*===============================================*/
-
 
 /*===============================================*/
 /*--- แนะนำตัว ---*/
@@ -412,7 +409,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   font-weight: 800;
   margin-bottom: 8px;
   font-size: 1rem;
- 
 }
 
 .auther-photo {
@@ -425,7 +421,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 
   margin: 8px 0;
   border-radius: 4px;
-
 }
 
 .btn-facebook {
@@ -438,7 +433,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   color: #fff;
   font-size: 0.82rem;
 }
-
 
 .facebook-like {
   background-color: rgb(223, 223, 223);
@@ -461,10 +455,9 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   border-radius: 4px;
 }
 
+/* Widget  */
 
- /* Widget  */
-
- .widget {
+.widget {
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
   padding: 15px;
@@ -474,17 +467,23 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   margin-top: 15px;
 }
 
-
 .content-form-card-widget {
-  background : linear-gradient(180deg, rgb(36, 160, 100) 0%, rgb(87, 255, 132) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(36, 160, 100) 0%,
+    rgb(87, 255, 132) 100%
+  );
   border-radius: 10px;
   padding: 25px 20px;
   margin: 20px 0;
-
 }
 
 .content-form-card-widget.module-1 {
-  background : linear-gradient(180deg, rgb(13, 70, 254) 0%, rgb(64, 198, 250) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(13, 70, 254) 0%,
+    rgb(64, 198, 250) 100%
+  );
 }
 
 .title-form-widget {
@@ -500,7 +499,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   font-weight: 500;
   display: block;
   margin: 8px 0;
-
 }
 
 .form-btn-widget {
@@ -510,34 +508,41 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   border-radius: 20px;
   cursor: pointer;
   color: #fff;
-  background: linear-gradient(45deg, rgb(255, 199, 79) 0%, rgb(255, 238, 57) 100%);
+  background: linear-gradient(
+    45deg,
+    rgb(255, 199, 79) 0%,
+    rgb(255, 238, 57) 100%
+  );
   font-size: 1rem;
   font-weight: 600;
   margin: 15px 0;
 }
 
 .form-btn-widget.module-1 {
-  background: linear-gradient(45deg, rgb(255, 176, 4) 0%, rgb(247, 227, 8) 100%);
+  background: linear-gradient(
+    45deg,
+    rgb(255, 176, 4) 0%,
+    rgb(247, 227, 8) 100%
+  );
 }
 
 /* hover ของ ปุ่มกด submit */
 .content-form-card-widget .form-btn-widget:hover {
-background: linear-gradient(45deg, #5a67d8, #6b46c1);
-transform: translateY(-2px);
-box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
+  background: linear-gradient(45deg, #5a67d8, #6b46c1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 }
 
 /* Focus: ฟอร์มรอง */
 .content-form-card-widget .form-select:focus,
 .content-form-card-widget .form-input:focus,
 .content-form-card-widget .form-textarea:focus {
-    outline: none;
-    background: #fff;
-    border-color: #3154f0;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.18);
-    transform: translateY(-1px);
+  outline: none;
+  background: #fff;
+  border-color: #3154f0;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.18);
+  transform: translateY(-1px);
 }
-
 
 /* ตารางทองคำ */
 
@@ -546,6 +551,8 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   --bg01: rgb(250, 209, 131);
   --bg02: rgb(254, 232, 189);
   --bg03: rgb(235, 255, 221);
+  --red-text: rgb(255, 0, 0);
+  --green-text: rgb(23, 233, 0);
 }
 
 .wrap-gold-table {
@@ -560,7 +567,6 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   background-color: var(--bg01);
 }
 
-
 .gold-table tbody th {
   background-color: var(--bg01);
 }
@@ -571,21 +577,48 @@ box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
   width: 100%;
 }
 
-.gold-table th ,
+.gold-table th,
 .gold-table td {
-   border: 1px solid var(--line);
-   text-align: center;
-   padding: 13px;
-   
+  border: 1px solid var(--line);
+  text-align: center;
+  padding: 13px;
+}
+
+.gold-table .total th,
+.gold-table .total td {
+  background-color: var(--bg03);
+  font-weight: bold;
+}
+
+td.num-center {
+  text-align: center;
 }
 
 td.num-right {
-   text-align: end;
+  text-align: right;
 }
 
-.gold-table .total th ,
-.gold-table .total td {
-  background-color: var(--bg03)
+.red-text {
+  color: var(--red-text);
+}
+
+.green-text {
+  color: var(--green-text);
+}
+
+.icon {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+.up {
+  border-bottom: 10px solid var(--green-text);
+}
+
+.down {
+  border-top: 10px solid var(--red-text);
 }
 
 /* ตารางทองคำ */
@@ -604,6 +637,127 @@ td.num-right {
   }
 }
 
+ #hamburger-menu {
+  display: none;
+ }
+
+/*--- RESPONSIVE ---*/
+
+/* สำหรับหน้าจอ 922px */
+@media (max-width: 922px) {
+  .site-header {
+    background-color: rgb(239, 247, 0);
+  }
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* สำหรับหน้าจอ 768px */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .site-header {
+    background-color: rgb(41, 243, 0);
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .form-checkbox-group {
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+}
+
+/* สำหรับหน้าจอ 576px */
+@media (max-width: 576px) {
+  .site-header {
+    background-color: rgb(255, 10, 243);
+  }
+
+  /* hanburger-menu */
+  #hamburger-menu {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 1000;
+    
+  }
+
+  /* วาดเส้น hamburger */
+  #hamburger-menu span,
+  #hamburger-menu span:before,
+  #hamburger-menu span:after {
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    content: "";
+    transition: all 0.3s ease;
+  }
+  
+
+  #hamburger-menu span { top: 13px;}
 
 
+
+  #hamburger-menu span:before {top: -8px;}
+
+ 
+
+  #hamburger-menu span:after{top: 8px;}
+
+
+
+  /* สร้างเส้น x */
+
+  #hamburger-menu.close span:before {
+    transform: rotate(45deg);
+    top: 0;
+
+  }
+
+  #hamburger-menu.close span {background: transparent;}
+
+  #hamburger-menu.close span:after{
+    transform: rotate(-45deg);
+    top: 0;
+
+  }
+
+  /* แสดง menu */
+  #menu.overlay {display: flex;}
+  
+  /* ซ่อน menu */
+  #menu {display: none;}
+
+  /* สลับตำแหน่งของ item */
+
+  .order-box-image {order:3;}
+  .order-box-table {order:1;}
+  .order-box-form {order:2;}
+
+  .sideber-widget {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .order-w-intro {order:1;}
+  .order-w-f-green {order:4;}
+  .order-w-f-blue {order:5;}
+  .order-w-fb {order:2;}
+  .order-w-sponsor {order:3;}
+    
+  
+}    
 
